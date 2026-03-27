@@ -1,69 +1,111 @@
-# Welcome to your Lovable project
+# MoskiFree - Natural Herbal Mosquito Coils
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/7ec8d102-2334-4096-bc7d-4730999a4179
+MoskiFree is a modern web application for a natural herbal mosquito coil company. The website showcases their range of 100% natural herbal mosquito coils that provide effective protection against mosquitoes without using harsh chemicals. The site is designed to be family-friendly, pet-safe, and environmentally conscious.
 
-## How can I edit this code?
+### Main Features:
+- **Product Showcase**: Displays various mosquito coil products with detailed information
+- **Natural Ingredients**: Highlights the herbal and natural composition of the products
+- **Safety Information**: Emphasizes safety for families, pets, and the environment
+- **Accessibility**: Uses the Boafo accessibility widget to make the site accessible to all users
+- **Responsive Design**: Works seamlessly across desktop and mobile devices
 
-There are several ways of editing your application.
+### Technologies Used:
+- **React 18** with TypeScript
+- **Vite** for fast development and building
+- **Tailwind CSS** for styling
+- **Next.js** for server-side rendering and routing
+- **Boafo Accessibility Widget** for enhanced accessibility
 
-**Use Lovable**
+### Accessibility Features
+This website uses the **Boafo Accessibility Widget** to make the site accessible to all users, including those with disabilities. The widget provides features like:
+- Screen reader compatibility
+- Keyboard navigation
+- High contrast mode
+- Font size adjustments
+- And more...
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7ec8d102-2334-4096-bc7d-4730999a4179) and start prompting.
+## How to Get Your Boafo API Key
 
-Changes made via Lovable will be committed automatically to this repo.
+To use the Boafo accessibility widget, you need to obtain an API key:
 
-**Use your preferred IDE**
+1. Visit [boafo.co](https://boafo.co)
+2. Register for an account
+3. Log in to your dashboard
+4. Navigate to the API Keys section
+5. Copy your API key
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## How to Integrate the Boafo Widget
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+For detailed instructions on integrating the Boafo accessibility widget into your project, refer to the official integration guide:
 
-Follow these steps:
+**[Boafo Widget Integration Guide](https://drive.google.com/file/d/1tvwK-sBZI2a4uldd6z5LD1iLblSl3WbG/view?usp=sharing)**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+The guide covers:
+- Installation steps
+- Configuration options
+- Customization features
+- Troubleshooting tips
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Setup Instructions
 
-# Step 3: Install the necessary dependencies.
-npm i
+Follow these steps to set up and run the project locally:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or pnpm
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/GROW-YAI/yai-project-kappa.git
+   cd yai-project-kappa
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   pnpm install
+   ```
+
+3. **Set up environment variables**
+   ```bash
+   # Copy the example environment file
+   cp .env.example .env
+   
+   # Edit the .env file and add your Boafo API key
+   VITE_BOAFO_API_KEY=your_actual_boafo_api_key_here
+   ```
+
+4. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   pnpm dev
+   ```
+
+5. **Open the application**
+   Open your browser and navigate to `http://localhost:3000/`
+
+### Building for Production
+
+```bash
+npm run build
+# or
+pnpm build
 ```
 
-**Edit a file directly in GitHub**
+The built files will be in the `dist` directory.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Environment Variables
 
-**Use GitHub Codespaces**
+| Variable | Description | Required |
+|----------|-------------|----------|
+| `VITE_BOAFO_API_KEY` | Your Boafo accessibility widget API key | Yes |
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Support
 
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/7ec8d102-2334-4096-bc7d-4730999a4179) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+For questions about the Boafo accessibility widget, visit [boafo.co](https://boafo.co) or refer to the [integration guide](https://drive.google.com/file/d/1tvwK-sBZI2a4uldd6z5LD1iLblSl3WbG/view?usp=sharing).
